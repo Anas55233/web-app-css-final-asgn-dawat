@@ -1,0 +1,546 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.country-info .country-info-text {
+    font-size: 18px;
+}
+
+
+.country-info a.country-logo.current {
+    font-size: 18px;
+    color: #3b3b79;
+}
+
+.country-logo1 {
+    border-radius: 100px;
+}
+
+.country-info .country-logo img {
+    padding: 1px;
+    border: 3px solid transparent;
+}
+
+.country-logo {
+    display: inline-flex;
+    width: fit-content;
+    align-items: center;
+    height: 100%;
+}
+
+.header-top-area {
+    background-color: #3b3b79;
+}
+
+.lang-btn {
+    background-color: #dea73c;
+    border-color: #dea73c;
+}
+
+.web-btn {
+    background-color: #d84148;
+    border-color: #d84148;
+}
+
+.web-btn,
+.lang-btn {
+    border-radius: 0;
+    font-size: 18px;
+    padding: 10px 10px 7px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+
+
+.header-bottom {
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.header-bottom .header-bottom-link {
+    font-size: 20px;
+    background: #252628;
+    color: #fff;
+    font-weight: 400;
+    padding: 5px;
+    width: 25%;
+    text-align: center;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.header-bottom .header-bottom-link.red__red {
+    background: #d84148;
+    width: 45%;
+}
+
+.header-bottom .header-bottom-link-list {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+.main-menu {
+    border-top: 1px solid #0000001a;
+    background: #fff;
+    border-bottom: 1px solid #0000001a;
+}
+
+
+.main-menu .bg-light {
+    background-color: #ffffff00 !important;
+    padding: 15px;
+    transition: .5s;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar-toggler {
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+}
+
+.search_icon {
+    color: #63636b;
+    text-decoration: none;
+}
+
+.search-box span {
+    border: 1px solid #ced4da;
+    padding: 10.5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background: #fff;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 5px;
+}
+
+.nav-link {
+    color: #444;
+    font-weight: 400;
+    font-size: 16px;
+    transition: .5s;
+}
+
+.search-box {
+    display: flex;
+    margin: 0 10px 0 0;
+    text-decoration: none;
+}
+
+.search-input {
+    background: #fff !important;
+    border-right: 0px;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+.donate-btn {
+    border-radius: 100px;
+    font-size: 18px;
+    padding: 5px 20px;
+    border: 0;
+    background: #d84148;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 0 !important;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.section-lang-head {
+    font-size: 30px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+
+.section-lang-head::after {
+    content: "";
+    position: absolute;
+    width: 37%;
+    height: 1px;
+    bottom: -5px;
+    left: 31.5%;
+    background-color: #e5e5e5;
+}
+
+
+
+.color1 {
+    background: #252628;
+    padding: 10px;
+}
+
+.font-head-div {
+    text-align: left;
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    padding: 0px;
+}
+
+.font-head {
+    font-size: 26px;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+.font-head::after {
+    content: "";
+    position: absolute;
+    width: 133%;
+    height: 1px;
+    bottom: -3px;
+    left: 1px;
+    background-color: #ffffff;
+}
+
+.font {
+    font-size: 15px;
+    margin: 15px 0px 0px 0px;
+    line-height: 27px;
+}
+
+.color2_new {
+    background: #d84148;
+    padding: 10px;
+    box-shadow: 9px 9px 1px -4px #000000e8;
+}
+
+.font_heading_special {
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+
+.font_heading_special::after {
+    content: "";
+    position: absolute;
+    width: 126%;
+    height: 1px;
+    bottom: -3px;
+    left: 2px;
+    background-color: #ffffff;
+}
+
+.font_urdu {
+    font-size: 13px;
+    margin: 18px 0px 7px 0px;
+    line-height: 27px;
+}
+
+.color3 {
+    background: #252628;
+    padding: 10px
+}
+
+.font-head::after {
+    content: "";
+    position: absolute;
+    width: 133%;
+    height: 1px;
+    bottom: -3px;
+    left: 1px;
+    background-color: #ffffff;
+}
+
+.font.font_arab {
+    font-size: 15px;
+}
+
+.discover-islam-box {
+    padding: 20px 15px;
+    margin-top: 5px;
+    box-shadow: 0 0 6px #1a2e5538;
+}
+
+.discover-islam-box div i {
+    color: #3b3b79;
+    margin-bottom: 15px;
+}
+
+.discover-islam-box div img {
+    color: #3b3b79;
+    margin-bottom: 15px;
+}
+
+.discover-islam-title{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 0 !important;
+}
+
+.discover-islam-title h1 {
+    font-weight: 700;
+    /* font-size: 50px; */
+    line-height: 1.3;
+    /* color: #000e52; */
+    text-transform: uppercase;
+}
+
+
+.discover-islam-box::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    width: 100%;
+    height: 0;
+    background: #3b3b79;
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+.activity-dawateislami{
+    background: url(https://resources.dawateislami.net/global/globalhomeweb/resources/assets/images/feature-bg.jpg) fixed;
+    color: white;
+}
+
+.about-area {
+    margin-top: 0;
+    padding: 50px 0;
+}
+
+.dreamit-section-title h5 {
+    color: #c0242b;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+.dreamit-section-title p {
+    margin: 15px 0 0;
+}
+
+.blog-button{
+    display: inline-block;
+    background: linear-gradient(to right,#e6332f 0,#d84148 60%)!important;
+    color: #fff;
+    padding: 17px 27px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.dreamit-about-thumb-3 {
+    position: unset;
+    margin-left: 0!important;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+
+.dreamit-section-title h5 {
+    background: linear-gradient(to right,#f2f2f2 0,#f2f2f2 100%);
+    padding: 5px 15px 3px!important;
+    border-radius: 3px;
+    font-weight: 500;
+    box-shadow: 9px 5px 10px -4px #0000004f;
+}
+
+.img-box {
+    width: 250px;
+    height: 250px;
+}
+
+
+.vision-box {
+    margin: 10px;
+    /* box-shadow: 0 0 6px #1a2e5538; */
+    background-color: #E0EAFC;
+    border-radius: 5px;
+}
+
+
+.vision-box1 {
+    margin: 10px;
+
+    background-color: #3b3b79;
+    border-radius: 5px;
+    background-image: url(https://resources.dawateislami.net/global/globalhomeweb/resources/assets/images/ab.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+.islamic-events {
+    background: url(https://resources.dawateislami.net/global/globalhomeweb/resources/assets/images/feature-bg.jpg) fixed;
+    color: white;
+    padding: 25px;
+}
+
+.book-nav {
+    padding: 3px 55px;
+    color: white;
+    background-color: #D84148;
+    border-radius: 6px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.media-nav, .article-nav {
+    padding: 3px 55px;
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    font-size: medium;
+    font-weight: bold;
+
+
+}
+
+.saving-humanity {
+  margin: 50px 0px;
+
+}
+
+
+
+.saving-bottom-h3 {
+    font-size: 20px;
+    margin: 21px 0 9px;
+    height: 51px;
+}
+
+.saving-bottom-i {
+    color: #d84148;
+    font-size: 50px;
+    display: inline-block;
+    height: 50px;
+}
+
+
+.saving-bottom-box {
+    padding: 38px 37px 26px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: #fff;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.social-welfare-bg-img {
+    background: url(https://resources.dawateislami.net/global/globalhomeweb/resources/assets/images/bk.jpg) center no-repeat fixed;
+    
+    padding: 50px 0;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.social-welfare-bg-img::before {
+
+    position: absolute;
+    z-index: -1;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #232334c9;
+}
+
+
+.footer-area {
+    background-image: url(https://resources.dawateislami.net/global/globalhomeweb/resources/assets/images/footer-bg.png);
+    background: #1b182b;
+
+}
+
+.footer-icons ul li i {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 3px;
+    margin-left: 1px;
+    color: #fff;
+}
+
+.footer-icons ul li i {
+    border: 0 solid #fff!important;
+    background: #292744;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text ul li a, .footer-text ul li img a {
+    text-decoration: none;
+    color: white;
+    margin: 10px auto;
+    text-align:center ;
+}
+
+.footer-text {
+    margin: 20px 0px;
+}
+
+.footer-text ul li img {
+    margin-right: 15px;
+    width: 24px;
+    height: 24px;
+}
+
+
